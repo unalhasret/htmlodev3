@@ -1,0 +1,51 @@
+body{
+    background: rgba(0, 4, 255, 0.3);
+}
+
+/* Ana metni ortalar. */
+.content{
+    width: 750px;
+    margin: 0 auto;
+}
+
+h2{
+    background-color: rgb(83, 2, 160);
+    border-radius: 8px;
+    color: white;
+    display: inline;
+}
+
+h3{
+    background-color: rgba(121, 0, 235, 0.829);
+    border-radius: 8px;
+    color: white;
+    margin-left: 15px;
+    display: inline;
+}
+
+p{
+    font-size: 18px;
+}
+li{
+    font-size: 17px;
+}
+
+/* h3'ün, h2'nin yanına gelmesini engeller. */
+.clear{
+    clear:both;
+}
+
+/* Resmi ortalar. */
+.center{
+    display:block;
+    margin: 0 auto;
+}
+/* yan yana sıralamak için */
+.header li{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+
+}
+
+
